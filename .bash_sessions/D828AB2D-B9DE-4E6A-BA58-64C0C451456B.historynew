@@ -1,0 +1,15 @@
+brew upgrade elixir
+mix archive.install hex phx_new 1.4.4
+elixir -v
+mix phx.new -v
+lsof -i: 5432
+lsof -i :5432
+mix phx.new chat
+cd chat
+mix phx.gen.channel Room
+cd assets && npm install && cd ..
+cd assets && npm install && cd ..
+cd chat
+psd
+pwd
+cd chat

@@ -1,0 +1,7 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mac/CLionProjects/untitled
+-- Configuring done
+CMake Error at CMakeLists.txt:9 (add_library):
+  No SOURCES given to target: IMSL
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

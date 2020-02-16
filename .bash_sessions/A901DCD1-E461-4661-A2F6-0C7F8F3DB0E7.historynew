@@ -1,0 +1,15 @@
+git init
+git add chat
+pwd
+git commit -m " "
+git remote add origin https://github.com/vagrabar/chatok.git
+git rm
+git reset path/to/file
+git remote add origin https://github.com/vagrabar/chatok.git
+git add
+git add chat
+git remote add origin https://github.com/vagrabar/chatok.git
+git push -m origin master
+git push -u origin master
+git remote add origin https://github.com/vagrabar/chatik.git
+git remote add origin https://github.com/vagrabar/chatek.git

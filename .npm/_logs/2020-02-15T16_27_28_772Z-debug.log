@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'audit' ]
+2 info using npm@6.13.4
+3 info using node@v12.16.0
+4 verbose npm-session dd1925ea852f2b9a
+5 verbose stack Error: No package.json found: Cannot audit a project without a package.json
+5 verbose stack     at /usr/local/lib/node_modules/npm/lib/audit.js:164:19
+5 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+5 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:514:35)
+5 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+5 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+5 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+5 verbose stack     at Promise._fulfill (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:643:18)
+5 verbose stack     at PromiseArray._resolve (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:126:19)
+5 verbose stack     at PromiseArray._promiseFulfilled (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:144:14)
+5 verbose stack     at PromiseArray._iterate (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:114:31)
+5 verbose stack     at PromiseArray.init [as _init] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:78:10)
+5 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:571:21)
+5 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+5 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+5 verbose stack     at Promise._fulfill (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:643:18)
+5 verbose stack     at PromiseArray._resolve (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:126:19)
+6 verbose cwd /Users/mac/chat
+7 verbose Darwin 17.7.0
+8 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "audit"
+9 verbose node v12.16.0
+10 verbose npm  v6.13.4
+11 error code EAUDITNOPJSON
+12 error audit No package.json found: Cannot audit a project without a package.json
+13 verbose exit [ 1, true ]

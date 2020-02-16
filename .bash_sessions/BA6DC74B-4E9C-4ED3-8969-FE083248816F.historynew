@@ -1,0 +1,9 @@
+mix phx.new chat1
+mix phx.gen.channel Room
+cd chat
+pwd
+cd chat1
+mix phx.gen.channel Room
+cd assets && npm install && cd ..
+mix phx.server
+mix ecto.create

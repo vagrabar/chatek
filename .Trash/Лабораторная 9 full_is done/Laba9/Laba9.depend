@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1258886926 source:c:\users\for codeblocks\desktop\projects\Лабораторная 9 full\laba9\main.cpp
+	<iostream>
+	<imsl.h>
+	<fstream>
+	<math.h>
+	<cmath>
+
+1220544010 c:\users\for codeblocks\desktop\imsl\cnl700\winms800i32\include\imsl.h
+	"imslerr.h"
+	<time.h>
+	<omp.h>
+	"rename.h"
+
+1220641072 c:\users\for codeblocks\desktop\imsl\cnl700\winms800i32\include\imslerr.h
+
+1258887227 source:c:\users\for codeblocks\desktop\projects\Лабораторная 9 full _maybe done\laba9\main.cpp
+	<iostream>
+	<imsl.h>
+	<fstream>
+	<math.h>
+	<cmath>
+

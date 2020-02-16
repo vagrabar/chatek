@@ -1,0 +1,9 @@
+mix phx.new chat
+cd chat
+mix phx.gen.channel Room
+cd assets && npm install && cd ..
+npm audit fix
+npm audit
+mix phx.new -v
+cd assets
+cd chat

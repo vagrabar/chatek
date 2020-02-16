@@ -1,0 +1,5 @@
+mkdir chatik
+cd chatik
+git init
+git clone https://github.com/vagrabar/chatik
+git add *

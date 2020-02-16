@@ -1,0 +1,9 @@
+<values>
+<value name="EnabledFlights"
+type="string-array">
+<string>tn-none-15b</string>
+<string>preamy_ctrl</string>
+<string>tn-vsmacnps-7</string>
+<string>seg_installer_prod</string>
+</value>
+</values>
